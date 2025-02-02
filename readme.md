@@ -83,3 +83,4 @@ cd wild-watch
     4. open [http://localhost:5173/](http://localhost:5173/) with your browser.
 
 ## preview 📸
+https://github.com/user-attachments/assets/e5bb00ff-7722-4a3e-87e2-3067d345246e
