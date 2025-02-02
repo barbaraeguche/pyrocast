@@ -82,11 +82,7 @@ export default function FileUpload({ setSolutions }: {
 				<button type={'button'}
 				        onClick={handleFileUpload}
 				        disabled={csvFiles.length !== validFiles.length || isUploading}
-				        className={`flex-1 px-4 py-2 rounded-md text-sm font-medium
-					          ${csvFiles.length === validFiles.length
-					        ? 'bg-[#722f37] text-white hover:bg-[#722f37]/80 cursor-pointer'
-					        : 'border border-[#722f37]/10 bg-[#722f37]/10 text-gray-800 cursor-not-allowed'}
-	                  transition-colors duration-200`}
+				        className={'flex-1 px-4 py-2 rounded-md text-sm font-medium bg-[#722f37] text-white hover:bg-[#722f37]/80 cursor-pointer disabled:border disabled:border-[#722f37]/10 disabled:bg-[#722f37]/10 disabled:text-gray-800 disabled:cursor-not-allowed transition-colors duration-200'}
 				>
 					{isUploading ? 'Uploading...' : 'Upload Files'}
 				</button>
