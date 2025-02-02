@@ -48,7 +48,7 @@ export default function Wildfire() {
 						>
 							<Report report={solutions.solution_1}/>
 							<Prediction prediction={solutions.solution_2}/>
-							<MapVisual/>
+							<MapVisual prediction={solutions.solution_2}/>
 						</motion.div>
 					)}
 				</AnimatePresence>
