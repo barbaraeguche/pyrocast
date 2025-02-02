@@ -6,7 +6,7 @@ import { Map as MapIcon } from 'lucide-react';
 export default function MapVisual({ prediction }: {
 	prediction: ModelPrediction[]
 }) {
-	const [open, setOpen] = useState<number>(-1);
+	const [open, setOpen] = useState<number>(0);
 	const pointers = useMemo(() => {
 		const pinColors = ['#E6B8AF', '#B4CFB0', '#D5B8E6', '#B8D5E6', '#E6D5B8', '#CFB0B4', '#B0B4CF', '#E6CFB0', '#B0CFB4', '#CFB4D5', '#B4D5CF']
 		
@@ -26,7 +26,7 @@ export default function MapVisual({ prediction }: {
 				</h2>
 			</div>
 			
-			<APIProvider apiKey={import.meta.env.VITE_PUBLIC_GOOGLE_MAPS_API_KEY}>
+			<APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
 				<div style={{ height: "750px" }}>
 					<Map zoom={8.5}
 					     center={{ lat: 45.0048, lng: -73.0300 }}
@@ -46,7 +46,7 @@ export default function MapVisual({ prediction }: {
 								{/* display information */}
 								{open === point._id && (
 									<InfoWindow position={point.position}
-									            onCloseClick={() => setOpen(-1)}
+									            onCloseClick={() => setOpen(0)}
 									            className={'w-24'}
 									>
 										<div className='flex flex-col gap-y-1 items-center'>
