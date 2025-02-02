@@ -27,7 +27,7 @@ export default function Wildfire() {
 			>
 				<motion.div animate={{
 											y: isLoaded ? 0 : "35vh",
-											transition: { duration: 0.5, ease: "easeInOut" }
+											transition: { delay: 0.1, duration: 0.5, ease: "easeInOut" }
 										}}
 										className="space-y-8"
 				>
