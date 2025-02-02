@@ -90,7 +90,7 @@ export default function FileUpload({ setSolutions }: {
 				<button type={'button'}
 				        onClick={handleClear}
 				        disabled={csvFiles.length === 0 || isUploading}
-				        className={`px-4 py-2 rounded-md text-sm font-medium border border-[#722f37]/10
+				        className={`px-4 py-2 rounded-md text-sm font-medium border border-[#722f37]/10 disabled:cursor-not-allowed
 				            ${csvFiles.length > 0
 					        ? 'bg-gray-200/90 hover:bg-gray-200/70 text-[#722f37] cursor-pointer'
 					        : 'bg-gray-100 text-gray-700 cursor-not-allowed'}
