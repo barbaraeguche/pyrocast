@@ -13,6 +13,7 @@ quebec using machine learning.
 - **resource management:** tracks firefighting resources and optimizes their allocation
 - **incident analysis:** comprehensive reporting of fire incidents with severity levels
 - **risk prediction:** machine learning-based prediction of future fire risks using environmental data
+- **geospatial visualization:** displays incident locations and resources on interactive maps using latitude and longitude coordinates
 - **cost analysis:** detailed breakdown of operational and damage costs
 - **interactive dashboard:** real-time visualization of fire incident data and predictions
 
@@ -20,6 +21,7 @@ quebec using machine learning.
 - **ml implementation:** building and deploying a random forest classifier for fire risk prediction
 - **resource optimization:** developing algorithms for efficient firefighting resource allocation
 - **data processing:** handling and analyzing complex environmental and incident data
+- **google maps integration:** implementing the google maps api to create interactive location-based features
 
 ## limitations 🚨
 - **data dependencies:** requires specific csv file formats for proper functionality
