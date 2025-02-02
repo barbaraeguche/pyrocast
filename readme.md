@@ -27,18 +27,18 @@ to get the project up and running on your local machine, follow these steps:
 - **ensure [python](https://www.python.org/downloads/) and [node.js](https://nodejs.org/en) are installed.**
 1. **clone the repository:**
 ```bash
-git clone https://github.com/rajpatel2435/{WORK ON NAME}.git
+git clonehttps://github.com/barbaraeguche/wild-watch.git
 ```
 
 2. **navigate to the project directory:**
 ```bash
-cd {WORK ON NAME}
+cd wild-watch
 ```
 
 3. **run the backend:**
     1. **navigate to server directory:**
    ```bash
-   cd backend
+   cd server
    ```
     2. **install and activate virtual environment:**
    ```bash
@@ -54,7 +54,7 @@ cd {WORK ON NAME}
 4. **run the frontend:**
     1. **navigate to client directory:**
    ```bash
-   cd frontend
+   cd client
    ```
     2. **install dependencies:**
    ```bash
@@ -62,10 +62,8 @@ cd {WORK ON NAME}
    ```
     3. **start the development server:**
    ```bash
-   next dev
-   # or
    pnpm run dev
    ```
-    4. open [http://localhost:3000/](http://localhost:3000/) with your browser.
+    4. open [http://localhost:5173/](http://localhost:5173/) with your browser.
 
 ## preview 📸

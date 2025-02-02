@@ -1,4 +1,5 @@
 import Wildfire from './component/wildfire.tsx';
+import './index.css';
 
 export default function App() {
   return (
