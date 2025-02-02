@@ -3,9 +3,9 @@ a real-time wildfire analysis and prediction dashboard that helps monitor, analy
 quebec using machine learning.
 
 ## tech stack ✨
-- **frontend:** react with tailwind css and framer motion for smooth animations
+- **frontend:** vite + react with tailwind css and framer motion for smooth animations
 - **backend:** flask with scikit-learn for ml predictions
-- **data processing:** pandas and numpy for data manipulation and analysis
+- **data processing:** pandas for data manipulation and analysis
 - **deployment:** frontend hosted on vercel; backend deployed on render.
 
 ## features 👾
@@ -43,7 +43,7 @@ to get the project up and running on your local machine, follow these steps:
 - **ensure [python](https://www.python.org/downloads/) and [node.js](https://nodejs.org/en) are installed.**
 1. **clone the repository:**
 ```bash
-git clonehttps://github.com/barbaraeguche/wild-watch.git
+git clone https://github.com/barbaraeguche/wild-watch.git
 ```
 
 2. **navigate to the project directory:**
