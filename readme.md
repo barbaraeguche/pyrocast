@@ -1,25 +1,41 @@
-# name 🚒
-brif description
+# wild watch 🚒
+a real-time wildfire analysis and prediction dashboard that helps monitor, analyze, and predict wildfire incidents in 
+quebec using machine learning.
 
 ## tech stack ✨
-- **frontend:** built with nextjs, tailwind css, framer motion, and zustand for state management.
-- **backend:** powered by flask with prisma and postgresql for database management.
+- **frontend:** react with tailwind css and framer motion for smooth animations
+- **backend:** flask with scikit-learn for ml predictions
+- **data processing:** pandas and numpy for data manipulation and analysis
 - **deployment:** frontend hosted on vercel; backend deployed on render.
 
 ## features 👾
-- **title:** description
+- **smart file upload:** handles multiple csv files with validation and progress tracking
+- **resource management:** tracks firefighting resources and optimizes their allocation
+- **incident analysis:** comprehensive reporting of fire incidents with severity levels
+- **risk prediction:** machine learning-based prediction of future fire risks using environmental data
+- **cost analysis:** detailed breakdown of operational and damage costs
+- **interactive dashboard:** real-time visualization of fire incident data and predictions
 
-## what we learned 💭
-- **title:** description
+## 💭 what I learned
+- **ml implementation:** building and deploying a random forest classifier for fire risk prediction
+- **resource optimization:** developing algorithms for efficient firefighting resource allocation
+- **data processing:** handling and analyzing complex environmental and incident data
 
 ## limitations 🚨
-- **title:** description
+- **data dependencies:** requires specific csv file formats for proper functionality
+- **resource constraints:** fixed resource allocation limits for firefighting units
+- **model scope:** predictions limited to available environmental parameters
 
 ## improvements 🌱
-- **title:** description
+- **real-time updates:** implement websocket for live data updates
+- **advanced ml models:** explore deep learning models for improved predictions
+- **resource scheduling:** add dynamic resource allocation optimization
+- **historical analysis:** include trend analysis and seasonal pattern detection
 
 ## .env file 📄
-this project requires an `.env` file in the root directory. rename the `.env.example` file to `.env`, and update it with the necessary values. ensure this file is configured properly and not committed to version control.
+this project requires .env files for both the server and client, located in their respective folders. rename the 
+.env.example file in each folder to .env, and update it with the necessary values. ensure these files are configured
+properly and not committed to version control.
 
 ## running the project 🏁
 to get the project up and running on your local machine, follow these steps:
