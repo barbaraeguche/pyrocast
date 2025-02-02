@@ -2,8 +2,12 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from model_solution_1 import main as main_solution_1
 from model_solution_2 import main as main_solution_2
+from dotenv import load_dotenv
 import os
 
+
+# load environment variables from .env file
+load_dotenv()
 
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
@@ -11,7 +15,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 app = Flask(__name__)
 
 # allow CORS for specific frontend URL
-CORS(app, resources={r"/api/*": {"origins": ['http://localhost:5173'], "methods": ["GET", "POST", "OPTIONS"]}})
+CORS(app, resources={r"/api/*": {"origins": [os.getenv('FRONTEND_URL'), 'http://localhost:5173'], "methods": ["GET", "POST", "OPTIONS"]}})
 app.config['UPLOAD_DIR'] = UPLOAD_DIR
 
 @app.route('/')
