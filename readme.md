@@ -1,6 +1,6 @@
 # wild watch 🚒
 a real-time wildfire analysis and prediction dashboard that helps monitor, analyze, and predict wildfire incidents in 
-quebec using machine learning.
+quebec using machine learning built for [**conuhacks-ix**](https://drive.google.com/file/d/1THw9CLQd4ynGZGwxXhtVPb1ZpVTQxTZ8/view) as part of the [**sap**](https://www.sap.com/canada/index.html) task.  
 
 ## tech stack ✨
 - **frontend:** vite + react with tailwind css and framer motion for smooth animations
