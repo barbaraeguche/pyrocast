@@ -35,8 +35,8 @@ quebec using machine learning.
 - **historical analysis:** include trend analysis and seasonal pattern detection
 
 ## .env file 📄
-this project requires .env files for both the server and client, located in their respective folders. rename the 
-.env.example file in each folder to .env, and update it with the necessary values. ensure these files are configured
+this project requires `.env` files for both the server and client, located in their respective folders. rename the 
+`.env.example` file in each folder to `.env`, and update it with the necessary values. ensure these files are configured
 properly and not committed to version control.
 
 ## running the project 🏁
