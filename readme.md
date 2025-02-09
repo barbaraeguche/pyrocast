@@ -62,6 +62,7 @@ cd wild-watch
    ```bash
    python3 -m venv venv
    source ./venv/bin/activate
+   pip install -r requirements.txt
    ```
     3. **run the flask app:**
    ```bash
