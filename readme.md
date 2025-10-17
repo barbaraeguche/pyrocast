@@ -1,4 +1,4 @@
-# wild watch 🚒
+# pyrocast 🚒
 a real-time wildfire analysis and prediction dashboard that helps monitor, analyze, and predict wildfire incidents in 
 quebec using machine learning built for [**conuhacks-ix**](https://drive.google.com/file/d/1THw9CLQd4ynGZGwxXhtVPb1ZpVTQxTZ8/view) as part of the [**sap**](https://www.sap.com/canada/index.html) task.  
 
@@ -45,12 +45,12 @@ to get the project up and running on your local machine, follow these steps:
 - **ensure [python](https://www.python.org/downloads/) and [node.js](https://nodejs.org/en) are installed.**
 1. **clone the repository:**
 ```bash
-git clone https://github.com/barbaraeguche/wild-watch.git
+git clone https://github.com/barbaraeguche/pyrocast.git
 ```
 
 2. **navigate to the project directory:**
 ```bash
-cd wild-watch
+cd pyrocast
 ```
 
 3. **run the backend:**
